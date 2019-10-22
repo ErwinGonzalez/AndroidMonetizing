@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FacebookAnalyticsExample</string>
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
+    <string name="cancel_login">Login Canceled</string>
+    <string name="cancel_error">Login Error</string>
+
+</resources>

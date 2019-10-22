@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseABTest</string>
+    <string name="i_m_a_experiment">I\'m a experiment</string>
+    <string name="send_to">Send the link via...</string>
+</resources>
