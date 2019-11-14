@@ -20,8 +20,6 @@ public class BannerActivity extends AppCompatActivity {
 
 
         mAdView = findViewById(R.id.adView);
-        mAdView.setAdSize(AdSize.BANNER);
-        mAdView.setAdUnitId(getString(R.string.ad_unit_id));
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
