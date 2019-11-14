@@ -22,7 +22,7 @@ public class NativeActivity extends AppCompatActivity {
         setContentView(R.layout.native_layout);
 
         AdLoader.Builder builder = new AdLoader.Builder(
-                this, "ca-app-pub-3940256099942544/2247696110");
+                this, getString(R.string.native_ad_unit_id));
 
         builder.forUnifiedNativeAd(new UnifiedNativeAd.OnUnifiedNativeAdLoadedListener() {
             @Override

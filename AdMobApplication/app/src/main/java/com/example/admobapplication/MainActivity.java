@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         interstitialAd = new InterstitialAd(this);
 
-        interstitialAd.setAdUnitId(getString(R.string.ad_unit_id));
+        interstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
         interstitialAd.setAdListener(new AdListener(){
             @Override
             public void onAdClosed() {
